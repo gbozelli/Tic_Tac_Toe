@@ -1,0 +1,10 @@
+.game {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-template-rows: 10rem 10rem 10rem;
+  justify-content: center;
+}
+
+.game > div, a {
+  border: 1px solid black; 
+}
